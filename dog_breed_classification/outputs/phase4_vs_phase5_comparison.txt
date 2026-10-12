@@ -1,0 +1,21 @@
+============================================================
+Phase 4 vs Phase 5 Comparison
+============================================================
+
+Phase 4 best val accuracy : 0.6106
+Phase 5 best val accuracy : 0.6223
+Accuracy change           : +0.0117
+
+Phase 4 best val loss     : 1.2984
+Phase 5 best val loss     : 1.327
+Loss change               : -0.0286 (positive = improvement)
+
+Phase 4 best val top-5    : 0
+Phase 5 best val top-5    : 0.9168
+
+Fine-tuning improved model: YES
+Selected model for Phase 6: mobilenetv2_finetuned_best.keras
+
+Overfitting assessment: Review finetuning_accuracy.png and finetuning_loss.png.
+Significant divergence between training and validation curves indicates overfitting.
+============================================================

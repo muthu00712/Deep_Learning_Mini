@@ -1,0 +1,72 @@
+{
+  "total_images": 10222,
+  "num_classes": 120,
+  "splits": {
+    "train": {
+      "count": 8177,
+      "percentage": 79.99,
+      "num_classes_represented": 120
+    },
+    "validation": {
+      "count": 1022,
+      "percentage": 10.0,
+      "num_classes_represented": 120
+    },
+    "test": {
+      "count": 1023,
+      "percentage": 10.01,
+      "num_classes_represented": 120
+    }
+  },
+  "image_size": [
+    224,
+    224,
+    3
+  ],
+  "batch_size": 32,
+  "augmentation_techniques": [
+    "RandomFlip(horizontal)",
+    "RandomRotation(0.10)",
+    "RandomZoom(0.10)",
+    "RandomTranslation(0.10, 0.10)",
+    "RandomContrast(0.10)"
+  ],
+  "preprocessing": "tf.keras.applications.mobilenet_v2.preprocess_input (scales to [-1, 1])",
+  "class_imbalance": {
+    "imbalanced": true,
+    "weight_min": 0.67467,
+    "weight_max": 1.28569,
+    "ratio": 1.91
+  },
+  "data_leakage_detected": false,
+  "pipeline_verification": {
+    "train_shape": [
+      32,
+      224,
+      224,
+      3
+    ],
+    "train_min": -1.0,
+    "train_max": 1.0,
+    "train_valid": true,
+    "val_shape": [
+      32,
+      224,
+      224,
+      3
+    ],
+    "val_min": -1.0,
+    "val_max": 1.0,
+    "val_valid": true,
+    "test_shape": [
+      32,
+      224,
+      224,
+      3
+    ],
+    "test_min": -1.0,
+    "test_max": 1.0,
+    "test_valid": true
+  },
+  "status": "READY FOR MODEL TRAINING"
+}

@@ -1,0 +1,56 @@
+======================================================================
+PHASE 6 - FINAL EVALUATION REPORT
+Dog Breed Classification Using MobileNetV2-Based Transfer Learning
+======================================================================
+
+SELECTED MODEL : Phase 5 Fine-tuned
+MODEL FILE     : models/dog_breed_classifier_final.keras
+
+--- VALIDATION METRICS (used for model selection) ---
+Best Val Accuracy : 62.23%
+Best Val Loss     : 1.327
+Best Val Top-5    : 91.68%
+
+--- TEST METRICS ---
+Test Accuracy     : 60.9%
+Test Loss         : 1.3145
+Test Top-5 Acc    : 90.81%
+
+--- AGGREGATE METRICS ---
+Macro  Precision  : 0.6329
+Macro  Recall     : 0.6022
+Macro  F1-score   : 0.5846
+Weighted Precision: 0.6435
+Weighted Recall   : 0.609
+Weighted F1-score : 0.5927
+
+Test images : 1023  |  Classes : 120
+
+--- TOP 5 BEST PREDICTED BREEDS ---
+  komondor : F1=1.0
+  sussex_spaniel : F1=0.941
+  afghan_hound : F1=0.917
+  japanese_spaniel : F1=0.917
+  pembroke : F1=0.909
+
+--- TOP 5 HARDEST BREEDS ---
+  black-and-tan_coonhound : F1=0.0
+  border_collie : F1=0.0
+  eskimo_dog : F1=0.0
+  greater_swiss_mountain_dog : F1=0.0
+  staffordshire_bullterrier : F1=0.0
+
+--- STRENGTHS ---
+- MobileNetV2 ImageNet pretraining provides strong feature extraction.
+- Top-5 accuracy >91% shows correct breed appears in top candidates.
+- Fine-tuning improved validation accuracy by +1.17 over frozen head.
+
+--- LIMITATIONS ---
+- 120 fine-grained similar breeds cause inter-class confusion.
+- CPU-only training limits feasible epochs and batch sizes.
+- Some minority classes may remain underrepresented after class weighting.
+
+======================================================================
+Final model : models/dog_breed_classifier_final.keras
+Class map   : models/class_names.json
+======================================================================

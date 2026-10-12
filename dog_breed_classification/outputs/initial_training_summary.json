@@ -1,0 +1,32 @@
+{
+  "epochs_completed": 13,
+  "max_epochs_configured": 13,
+  "best_epoch": 13,
+  "best_training_accuracy": 0.5936,
+  "best_validation_accuracy": 0.6106,
+  "best_training_loss": 1.515,
+  "best_validation_loss": 1.2984,
+  "trainable_parameters": 358776,
+  "non_trainable_parameters": 2257984,
+  "saved_model_path": "C:\\Users\\Admin\\Desktop\\Deep_Learning_mini\\dog_breed_classification\\models\\mobilenetv2_initial_best.keras",
+  "training_history_path": "C:\\Users\\Admin\\Desktop\\Deep_Learning_mini\\dog_breed_classification\\outputs\\training_history.csv",
+  "accuracy_graph_path": "C:\\Users\\Admin\\Desktop\\Deep_Learning_mini\\dog_breed_classification\\outputs\\initial_accuracy.png",
+  "loss_graph_path": "C:\\Users\\Admin\\Desktop\\Deep_Learning_mini\\dog_breed_classification\\outputs\\initial_loss.png",
+  "overfitting_analysis": {
+    "is_overfitting": false,
+    "acc_gap": -0.017,
+    "loss_gap": -0.2166,
+    "diagnosis": "Model shows healthy generalization during feature extraction stage: Validation loss closely tracks training loss (gap: -0.217). Dropout(0.3) and Data Augmentation effectively regularized the classification head."
+  },
+  "reload_verification": {
+    "reload_verified": true,
+    "output_shape": [
+      4,
+      120
+    ],
+    "sums_approx_one": true,
+    "has_nan": false,
+    "has_inf": false
+  },
+  "status": "INITIAL TRAINING COMPLETE \u2014 READY FOR PHASE 5 FINE-TUNING"
+}

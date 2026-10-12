@@ -1,0 +1,55 @@
+================================================================================
+PHASE 1 — DATASET VERIFICATION & STATISTICAL REPORT
+Dog Breed Classification Using MobileNetV2-Based Transfer Learning
+================================================================================
+
+1. DATASET PATHS & STRUCTURE
+   Image Directory:       C:\Users\Admin\Desktop\Deep_Learning_mini\dog_breed_classification\dataset\train
+   Labels CSV File:       C:\Users\Admin\Desktop\Deep_Learning_mini\dog_breed_classification\dataset\labels.csv
+   Total Images in Dir:   10222
+   Total Labeled Images:  10222
+   File Extensions:       {'.jpg': 10222}
+
+2. LABEL-TO-IMAGE MAPPING & INTEGRITY
+   Duplicate IDs in CSV:  0
+   Labels Without Images: 0
+   Images Without Labels: 0
+   Corrupted Images:      0
+   Unreadable Images:     0
+   Extremely Small (<32): 0
+
+3. SAMPLE VERIFIED MAPPINGS (id -> filename -> breed)
+   000bec180eb18c7604dcecc8fe0dba07.jpg -> boston_bull (ID: 000bec180eb18c7604dcecc8fe0dba07)
+   001513dfcb2ffafc82cccf4d8bbaba97.jpg -> dingo (ID: 001513dfcb2ffafc82cccf4d8bbaba97)
+   001cdf01b096e06d78e9e5112d419397.jpg -> pekinese (ID: 001cdf01b096e06d78e9e5112d419397)
+   00214f311d5d2247d5dfe4fe24b2303d.jpg -> bluetick (ID: 00214f311d5d2247d5dfe4fe24b2303d)
+   0021f9ceb3235effd7fcde7f7538ed62.jpg -> golden_retriever (ID: 0021f9ceb3235effd7fcde7f7538ed62)
+   002211c81b498ef88e1b40b9abf84e1d.jpg -> bedlington_terrier (ID: 002211c81b498ef88e1b40b9abf84e1d)
+   00290d3e1fdd27226ba27a8ce248ce85.jpg -> bedlington_terrier (ID: 00290d3e1fdd27226ba27a8ce248ce85)
+   002a283a315af96eaea0e28e7163b21b.jpg -> borzoi (ID: 002a283a315af96eaea0e28e7163b21b)
+
+4. CLASS STATISTICS (BREEDS)
+   Total Unique Breeds:   120
+   Most Represented:      scottish_deerhound (126 images)
+   Least Represented:     briard (66 images)
+   Average Images/Breed:  85.18
+   Median Images/Breed:   82.00
+   Standard Deviation:    13.30
+   Imbalance Ratio:       1.91:1
+   Balance Assessment:    Moderately balanced (mild variance across classes, typical for Kaggle dog breeds)
+
+5. IMAGE DIMENSION STATISTICS
+   Width Range:           97px to 3264px (Mean: 443.3px, Median: 500.0px)
+   Height Range:          102px to 2562px (Mean: 386.7px, Median: 375.0px)
+   Most Common Dimension: 500x375 (Count: 2647)
+   RGB Images:            10222
+   Grayscale Images:      0
+
+6. GENERATED ARTIFACTS IN outputs/
+   - sample_training_images.png (16-sample labeled preview grid)
+   - class_distribution.png     (Top/bottom classes & distribution histogram)
+   - dimension_distribution.png (Width/height/aspect-ratio analysis)
+   - dataset_summary.json       (Complete machine-readable metrics)
+   - breed_distribution.csv     (Per-breed counts and proportions)
+   - breed_names.txt            (Alphabetical index of all 120 breeds)
+================================================================================

@@ -1,0 +1,92 @@
+{
+  "dataset_path": "C:\\Users\\Admin\\Desktop\\Deep_Learning_mini\\dog_breed_classification\\dataset\\train",
+  "labels_csv_path": "C:\\Users\\Admin\\Desktop\\Deep_Learning_mini\\dog_breed_classification\\dataset\\labels.csv",
+  "total_files_in_image_directory": 10222,
+  "total_training_images": 10222,
+  "total_breeds": 120,
+  "file_extensions": {
+    ".jpg": 10222
+  },
+  "color_modes": {
+    "RGB": 10222
+  },
+  "image_formats": {
+    "JPEG": 10222
+  },
+  "missing_images_count": 0,
+  "orphaned_images_count": 0,
+  "duplicate_ids_in_csv": 0,
+  "corrupted_images_count": 0,
+  "unreadable_images_count": 0,
+  "extremely_small_images_count": 0,
+  "dimensions": {
+    "min_width": 97,
+    "max_width": 3264,
+    "mean_width": 443.33,
+    "median_width": 500.0,
+    "min_height": 102,
+    "max_height": 2562,
+    "mean_height": 386.75,
+    "median_height": 375.0,
+    "most_common_dimension": [
+      500,
+      375
+    ],
+    "most_common_dimension_frequency": 2647,
+    "rgb_images": 10222,
+    "grayscale_images": 0
+  },
+  "class_distribution": {
+    "most_common_breed": "scottish_deerhound",
+    "most_common_count": 126,
+    "least_common_breed": "briard",
+    "least_common_count": 66,
+    "average_images_per_breed": 85.18,
+    "median_images_per_breed": 82.0,
+    "std_images_per_breed": 13.3,
+    "imbalance_ratio": 1.91,
+    "balance_verdict": "Moderately balanced (mild variance across classes, typical for Kaggle dog breeds)"
+  },
+  "sample_mappings": [
+    {
+      "id": "000bec180eb18c7604dcecc8fe0dba07",
+      "filename": "000bec180eb18c7604dcecc8fe0dba07.jpg",
+      "breed": "boston_bull"
+    },
+    {
+      "id": "001513dfcb2ffafc82cccf4d8bbaba97",
+      "filename": "001513dfcb2ffafc82cccf4d8bbaba97.jpg",
+      "breed": "dingo"
+    },
+    {
+      "id": "001cdf01b096e06d78e9e5112d419397",
+      "filename": "001cdf01b096e06d78e9e5112d419397.jpg",
+      "breed": "pekinese"
+    },
+    {
+      "id": "00214f311d5d2247d5dfe4fe24b2303d",
+      "filename": "00214f311d5d2247d5dfe4fe24b2303d.jpg",
+      "breed": "bluetick"
+    },
+    {
+      "id": "0021f9ceb3235effd7fcde7f7538ed62",
+      "filename": "0021f9ceb3235effd7fcde7f7538ed62.jpg",
+      "breed": "golden_retriever"
+    },
+    {
+      "id": "002211c81b498ef88e1b40b9abf84e1d",
+      "filename": "002211c81b498ef88e1b40b9abf84e1d.jpg",
+      "breed": "bedlington_terrier"
+    },
+    {
+      "id": "00290d3e1fdd27226ba27a8ce248ce85",
+      "filename": "00290d3e1fdd27226ba27a8ce248ce85.jpg",
+      "breed": "bedlington_terrier"
+    },
+    {
+      "id": "002a283a315af96eaea0e28e7163b21b",
+      "filename": "002a283a315af96eaea0e28e7163b21b.jpg",
+      "breed": "borzoi"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "epochs_completed": 9,
+  "max_epochs_configured": 20,
+  "best_epoch": 7,
+  "best_training_accuracy": 0.6557,
+  "best_validation_accuracy": 0.6223,
+  "best_training_loss": 1.21,
+  "best_validation_loss": 1.327,
+  "best_validation_top_5_accuracy": 0.9168,
+  "trainable_parameters": 2371192,
+  "non_trainable_parameters": 245568,
+  "frozen_mobilenet_layers": 105,
+  "trainable_mobilenet_layers": 49,
+  "saved_model_path": "C:\\Users\\Admin\\Desktop\\Deep_Learning_mini\\dog_breed_classification\\models\\mobilenetv2_finetuned_best.keras",
+  "status": "FINETUNING COMPLETE"
+}
